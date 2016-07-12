@@ -4,7 +4,6 @@
         return function(input: string): string {
         		var str = input;
 						var level = 0;
-						var indexA = 0;
 						var nl = "<br/>";
 						var spacer = "&nbsp;&nbsp;&nbsp;&nbsp;";
 						var result = "";
