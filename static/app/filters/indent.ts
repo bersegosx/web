@@ -38,6 +38,11 @@ export function IndentFilter() {
 				}
 			},
 			args: {
+				space: {
+					action: function(current) {
+						return '';
+					}
+				},
 				letter: {
 					next: 'name'
 				},
